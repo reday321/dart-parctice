@@ -2,6 +2,8 @@ class Person {
   int age;
   String name;
 
+  /// In Dart, `Person(this.age, this.name);` is a constructor shorthand syntax that initializes the
+  /// `age` and `name` properties of the `Person` class with the values passed to the constructor.
   Person(this.age, this.name);
 
   void greet() {
