@@ -1,5 +1,4 @@
 void main() {
-  
   int age = 22;
   double pi = 3.14;
   String name = 'Hridoy';
@@ -16,4 +15,8 @@ void main() {
 
   print(name);
   print(age);
+
+  print(
+    'Hello! My name is $name. I am $age years old. I live in $city,$country. I am a student this is $isStudent. This is $year and the value of pi is $pi',
+  );
 }
